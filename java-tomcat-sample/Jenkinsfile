@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy in Staging Environment'){
             steps{
-                build job: 'Deploying-tomcat-server'
+                build job: 'Code pipeline project'
 
             }
             
